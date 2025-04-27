@@ -20,5 +20,5 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Run Code
-        run: node index.js
+      - name: Run Code (error.js)
+        run: node error.js
